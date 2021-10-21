@@ -1,0 +1,9 @@
+import json
+comp = open('C:\\Users\\fjwu\\Documents\\freebike.json',encoding='utf8')
+data=json.load(comp)
+
+for i in data['data']:
+    print(i)
+    for j in i:
+        print(j)
+       # print(i['bike_id'])
